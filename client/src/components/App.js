@@ -4,7 +4,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header Dark={true}>App</Header>
+        <Header Dark={true} className="Header">App </Header>
       </div>
     )
   }
